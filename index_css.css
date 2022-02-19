@@ -1,6 +1,9 @@
 *{
   cursor: url(cursor.cur), default;
 }
+body{
+  
+}
 .myDiv{
   height: 1000px;
   width: 1000px;
