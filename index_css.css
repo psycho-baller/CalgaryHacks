@@ -2,14 +2,7 @@
   margin: 0;
   padding: 0;
 }
-body{
-  
-}
-.myDiv{
-  height: 1000px;
-  width: 1000px;
-  background-color: lightblue;
-}
+
 .intro{
   color: white;
   text-align: center;
