@@ -28,11 +28,12 @@
 
 .flex-child {
     flex: 1;
-    border: 2px solid yellow;
+    border: 1px solid white;
 }  
 
 .flex-child:first-child {
     margin-right: 20px;
+    margin-left: 20px;
 } 
 
 
