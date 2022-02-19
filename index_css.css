@@ -1,5 +1,6 @@
 body {
-  background-color: lightblue;
+  background-color: white;
+  cursor: url("https://psycho-baller.github.io/CalgaryHacks/images/cursor.svg");
 }
 .foo{
   cursor: url("https://psycho-baller.github.io/CalgaryHacks/images/cursor.svg");
