@@ -1,5 +1,7 @@
 *{
   cursor: url(cursor.cur), default;
+  margin: 0;
+  padding: 0;
 }
 body{
   
