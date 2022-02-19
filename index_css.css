@@ -1,11 +1,8 @@
 *{
   cursor: url(cursor.cur), default;
 }
-
-body {
-  background-color: white;
-  cursor: url("https://psycho-baller.github.io/CalgaryHacks/images/cursor.cur");
-}
-.foo{
-  cursor: url("https://psycho-baller.github.io/CalgaryHacks/images/cursor.cur");
+.myDiv{
+  height: 1000px;
+  width: 1000px;
+  background-color: lightblue;
 }
