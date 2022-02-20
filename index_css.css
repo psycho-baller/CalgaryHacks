@@ -84,3 +84,7 @@ body{
   background-color: green;
   color: black;
 }
+
+paragraph{
+  top: 50%;
+}
