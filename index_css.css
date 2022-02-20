@@ -51,7 +51,7 @@ body{
 }
 
 
-.img1{
+.img_right{
   width: 85%;
   height: 400;
   box-shadow: 2px 2px 4px #000000;
@@ -82,7 +82,21 @@ body{
   color: black;
 }
 
-.paragraph{
+.paragraph_left{
+  margin-top: 25%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.img_left{
+  width: 85%;
+  height: 400;
+  box-shadow: 2px 2px 4px #000000;
+  margin-left: 10%;
+  /*margin-right: 10%;*/
+}
+
+.paragraph_right{
   margin-top: 25%;
   margin-right: 5%;
   margin-left: 5%;
