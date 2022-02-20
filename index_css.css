@@ -66,6 +66,7 @@ body{
   font-size: 17px;
   border-radius: 5px;
   z-index: 1;
+  float: left;
 }
 
 .pill-nav a:hover {
