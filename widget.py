@@ -1,4 +1,4 @@
-f = open("widget.csv")
+f = open("wiki2.csv")
 country_names = []
 info = []
 counter = -4
@@ -6,9 +6,6 @@ for row in f:
     country_names.append(row.strip().lower().split(',')[0])
     info.append((row.strip().lower().split(',')[1:],counter))
     counter += 1
-# print(info)
-# print(country_names)
-
 
 country = {}
 cursor = 0
@@ -17,7 +14,7 @@ for i in country_names:
     cursor += 1
 
     
-user_input = input("Enter a country:\n")
+user_input = input("Enter a country name\n")
 
 
 while user_input != '':
@@ -31,7 +28,7 @@ while user_input != '':
             print("This contributes to " + data[0][1] + " of the world's fossil CO2 emissions, making it rank " + str(data[1]) + " in the world!")
     else:
         print("Country not found!")
-    user_input = input("\nEnter a country:\n")
+    user_input = input("\nEnter a country or press enter to end the program\n")
 
 
-print("Thanky you!")
+print("Thank you!")
