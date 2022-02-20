@@ -57,10 +57,13 @@ body{
   box-shadow: 2px 2px 4px #000000;
 }
 
-.pill-nav a {
+
+.buttons{
   position: absolute;
   top: 8px;
   left: 16px;
+}
+.pill-nav a {
   display: inline-block;
   color: rgb(51,81,37);
   text-align: center;
