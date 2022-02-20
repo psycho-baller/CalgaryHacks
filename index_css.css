@@ -57,6 +57,7 @@ body{
 }
 
 .pill-nav a {
+  position: absolute;
   display: inline-block;
   color: rgb(51,81,37);
   text-align: center;
